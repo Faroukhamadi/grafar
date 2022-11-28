@@ -1,7 +1,6 @@
 mod unweighted_graph;
 mod weighted_graph;
 use unweighted_graph::Node;
-// use weighted_graph::Hello;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
@@ -24,10 +23,6 @@ mod tests {
             data: "28",
             edges: vec![],
         }));
-
-        let mut mut_root = root.borrow_mut();
-
-        mut_root.edges.push(b.clone());
     }
 
     #[test]
