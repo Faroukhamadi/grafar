@@ -15,12 +15,12 @@ mod tests {
     #[test]
     fn do_node() {
         let root = Rc::new(RefCell::new(Node {
-            data: "23",
+            data: 23,
             edges: vec![],
         }));
 
         let b = Rc::new(RefCell::new(Node {
-            data: "28",
+            data: 28,
             edges: vec![],
         }));
     }
